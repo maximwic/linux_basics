@@ -43,4 +43,4 @@ chmod 644 file2
 sudo adduser user_sudo
 sudo usermod -aG sudo user_sudo
 
-
+#Задание 5
