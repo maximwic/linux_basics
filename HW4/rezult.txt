@@ -1,0 +1,14 @@
+Fri Feb  5 03:54:01 UTC 2021
+Fri Feb  5 03:55:01 UTC 2021
+Fri Feb  5 03:56:01 UTC 2021
+16	/home/new_sudoer
+20	/home/petrov
+12028	/home/maxim
+16	/home/sobolev
+12084	/home
+Fri Feb  5 03:57:01 UTC 2021
+16	/home/new_sudoer
+20	/home/petrov
+12028	/home/maxim
+16	/home/sobolev
+12084	/home
