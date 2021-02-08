@@ -1,0 +1,7 @@
+# * tak4 :Настроить правила iptables, чтобы из внешней сети можно было обратиться только к портам 80 и 443. Запросы на порт 8080 перенаправлять на порт 80.
+sudo iptables -t nat -A PREROUTING -i enp0s3 -p tcp --dport 8080 -j DNAT --to-destination 192.168.0.200:80
+sudo iptables -A INPUT -i enp0s3 -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -i enp0s3 -p tcp --dport 8080 -j ACCEPT
+sudo iptables -A INPUT -i enp0s3 -p tcp --dport 443 -j ACCEPT
+sudo iptables -P INPUT DROP
+
